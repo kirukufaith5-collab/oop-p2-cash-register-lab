@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
 class CashRegister:
-  
     def __init__(self, discount=0):
         self.discount = discount
         self.total = 0
@@ -66,4 +65,4 @@ if __name__ == "__main__":
         register = CashRegister(user_raw_input)
 
     print(f"\n--- Register Initialized with a {register.discount}% discount plan ---")
-  pass
+  
